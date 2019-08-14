@@ -20,5 +20,5 @@ ProtVec is first introduced in this following paper
  The pre-trained model "swissprot-reviewed.model" is also available in ProtVec github page.
  Now only P21397.fasta.flat is required to get the features from protein sequences.
  
-
+The command will be = 'python protvec_script.py -infile P21397.fasta.flat'
  
