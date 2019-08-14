@@ -10,6 +10,7 @@ ProtVec is first introduced in this following paper
  pip install biovec
  
  import biovec
+ 
  pv = biovec.models.ProtVec("P21397.fasta", corpus_fname="P21397.txt")
  
  This will generate three files .
