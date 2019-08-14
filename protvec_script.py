@@ -5,6 +5,7 @@ import os,sys,argparse
 import pandas as pd
 import time
 
+#uploading the pretrained model
 pv2 = biovec.models.load_protvec('/home/manali/mymolecules/Drug-Bank-data/FASTA-Training/biovec-master/trained_models/swissprot-reviewed.model')
 
 def fastaflat_to_features(filename):
